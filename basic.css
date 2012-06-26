@@ -1,0 +1,62 @@
+
+/** HEADER **/
+
+#header h1 {
+  font-size: 350%;
+  font-family: monospace;
+  font-weight: bold;
+  color: #aa4400;  
+  padding: 80px 0px 0px 200px;
+}
+
+
+/** NAVBAR **/
+
+#nav ul {
+  margin: 0px 0px 0px 0px;
+  height: 54px;
+  font-size: 10pt;
+  font-family: monospace;
+}
+
+
+#nav li {
+  padding: 10px 0 0 0;
+  list-style-type: none;
+  float: right;
+  width: 130px;
+  background: url(navli.png) no-repeat;
+  text-indent: 30px;
+  padding: 30px 0px 0px 0px;
+  height: 24px;
+}
+
+#nav li:hover {
+  background: url(navlialt.png) no-repeat;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#nav a:hover {
+  color: #ff6600;
+}
+
+
+
+
+
+
+
+
+/** FOOTER **/
+
+#footer p.copyright {
+  text-align: right;
+  padding: 50px 15px 0 0;
+  font-size: 90%;
+  color: #aa4400;
+}

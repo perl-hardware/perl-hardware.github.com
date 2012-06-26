@@ -1,0 +1,77 @@
+
+
+body {
+  margin: 10px auto;
+  width: 960px;
+  font-size: medium;
+  background: #cfcfcf url(logoback.png) repeat-y;
+}
+
+#wrapper {
+  position: relative;
+  margin: 0px auto;
+  width: 960px;
+  -webkit-box-shadow: 2px 4px 6px 4px #333;
+  box-shadow: 2px 4px 6px 4px #333;
+  border-radius: 20px 20px 0px 0px; 
+  -moz-border-radius: 20px 20px 20px 20px; 
+  -webkit-border-radius: 20px 20px 20px 20px;  
+}
+
+#logo {
+  height:220px;
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  left: 12px;
+  background: url(logo.png) no-repeat;
+}
+
+#inner-wrapper {
+  display: block;
+  background: white;
+  -webkit-box-shadow: inset 0px 0px 8px 4px #cccccc;
+  box-shadow: inset 0px 0px 8px 4px #cccccc; 
+  border-radius: 20px 20px 20px 20px; 
+  -moz-border-radius: 20px 20px 20px 20px; 
+  -webkit-border-radius: 20px 20px 20px 20px; 
+}
+
+#header {
+  height: 150px;
+  margin: 0px;  
+  display: block;
+  border-radius: 20px 20px 0px 0px; 
+  -moz-border-radius: 20px 20px 0px 0px; 
+  -webkit-border-radius: 20px 20px 0px 0px; 
+}
+
+
+#nav {
+  background: url(navbar.png) repeat-x bottom;
+  height: 54px;
+  margin: 0px;
+  display: block;
+}
+
+
+#content {
+  margin: 0px;
+  padding: 40px 20px 10px 20px;
+  display: block;
+}
+
+
+#footer {
+  background: #efefef;
+  margin: 0px;
+  height: 120px;
+  display: block;
+  border-radius: 0px 0px 20px 20px; 
+  -moz-border-radius: 0px 0px 20px 20px; 
+  -webkit-border-radius: 0px 0px 20px 20px; 
+  border-top: 5px inset #999;
+  -webkit-box-shadow: inset 0px 0px 8px 4px #999;
+  box-shadow: inset 0px 0px 8px 4px #999; 
+}
+
