@@ -15,26 +15,28 @@ body {
   box-shadow: 2px 4px 6px 4px #333;
   border-radius: 20px 20px 0px 0px; 
   -moz-border-radius: 20px 20px 20px 20px; 
-  -webkit-border-radius: 20px 20px 20px 20px;  
+  -webkit-border-radius: 20px 20px 20px 20px;
+  
 }
 
 #logo {
   height:220px;
   width: 200px;
   position: absolute;
-  top: 18px;
-  left: 12px;
+  top: 14px;
+  left: 8px;
   background: url(logo.png) no-repeat;
 }
 
 #inner-wrapper {
   display: block;
   background: white;
-  -webkit-box-shadow: inset 0px 0px 8px 4px #cccccc;
-  box-shadow: inset 0px 0px 8px 4px #cccccc; 
+  -webkit-box-shadow: inset 0px 0px 4px 2px #cccccc;
+  box-shadow: inset 0px 0px 4px 2px #cccccc; 
   border-radius: 20px 20px 20px 20px; 
   -moz-border-radius: 20px 20px 20px 20px; 
   -webkit-border-radius: 20px 20px 20px 20px; 
+
 }
 
 #header {
